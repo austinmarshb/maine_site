@@ -1,0 +1,263 @@
+body {
+    font-family: Calibri, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F7F7F7;
+    color: #2C3A47;
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    color: #2C3A47;
+}
+
+header,
+footer {
+    background-color: #283747;
+    color: #FFFFFF;
+    padding: 20px 0;
+}
+
+#box-title {
+    position: relative;
+    top: 10px;
+    left: 0;
+    text-align: center;
+}
+
+#landing-photo {
+    border: 5px solid #358646;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.lists-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.ordered-list-container, .unordered-list-container {
+    width: 45%;
+    float: left;
+    margin-right: 5%;
+}
+
+.unordered-list-container {
+    margin-right: 0;
+}
+
+.ordered-list, .unordered-list {
+    list-style-position: inside;
+    font-size: 1.1em;
+    line-height: 1.6;
+    padding-left: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.headertitle {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Absolute positioning for the logo */
+.logo img {
+    position: absolute;
+    top: -73px;
+    left: -55px;
+    width: 100px;
+}
+
+.container-form {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #ECF0F1;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #358646;
+}
+
+.main-article {
+    padding: 50px 0;
+}
+
+.main-article .container {
+    display: flex;
+    gap: 20px;
+}
+
+.article {
+    flex: 2;
+    background-color: #5D6D7E;
+    color: #FFFFFF;
+    padding: 60px 20px;
+    border-radius: 10px;
+}
+
+
+.info-box {
+    flex: 1;
+    border: 2px solid #5DADE2;
+    background-color: #D4E6F1;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.info-box h3 {
+    margin-top: 0;
+    color: #283747;
+}
+
+.info-box img.aside-logo {
+    margin-top: 15px;
+    width: 50px;
+    height: auto;
+}
+
+.secondary-articles {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.secondary-article {
+    width: 45%;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(44, 58, 71, 0.1);
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.secondary-article h3 {
+    margin-top: 0;
+    color: #283747;
+}
+
+.secondary-article p {
+    margin: 10px 0;
+    color: #2C3A47;
+}
+
+.footer-links {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.footer-links a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ECF0F1;
+}
+
+.footer-links a:hover {
+    color: #358646;
+}
+
+/* Form Styling */
+form input,
+form textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    resize: none;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    font-family: Calibri, serif;
+    font-size: 1em;
+    color: #888;
+}
+
+form textarea {
+    height: 200px;
+    line-height: 1.5; 
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #000000;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+form button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+form button:hover {
+    background-color: #2b632e;
+}
+
+form button:active {
+    background-color: #96c799;
+    transform: scale(0.98);
+}
